@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CONFIG>
+<GENERAL>
+	<MonthRetention>1</MonthRetention>
+	<WeekRetention>1</WeekRetention>
+	<DayRetention>1</DayRetention>
+	<MininumSpaceInGB>20</MininumSpaceInGB>
+	<BackupRootFolder>\\spablskxa8r01\Server_backups</BackupRootFolder>
+</GENERAL>
+<DESTINATION>
+	<SyncServerName>spablskxa8r01</SyncServerName>
+	<SyncFolderName>d$\Server_backups</SyncFolderName>
+</DESTINATION>
+<NOTIFICATION>
+	<SmtpServerName>10.2.1.9</SmtpServerName>
+	<SmtpServerPort>25</SmtpServerPort>
+	<SmtpServerUsername></SmtpServerUsername>
+	<SmtpServerPassword></SmtpServerPassword>
+	<Ssl>false</Ssl>
+	<Recipient>lee.buskey.ctr@ablcda.navy.mil</Recipient>
+	<Sender>SKED-Backup@sked.ablu.navy.mil</Sender>
+</NOTIFICATION>
+</CONFIG>
